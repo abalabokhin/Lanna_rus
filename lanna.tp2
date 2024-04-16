@@ -1,0 +1,294 @@
+BACKUP ~lanna/backup~
+AUTHOR ~Lava Del'Vortel~
+README ~lanna/readme.txt~
+
+VERSION ~v1.7~
+
+AUTO_TRA ~lanna\translations\%s~
+
+ALWAYS
+  INCLUDE ~%MOD_FOLDER%/lib/fl#add_kit_ee.tpa~
+  INCLUDE ~%MOD_FOLDER%/lib/functions.tph~
+END
+
+LANGUAGE ~English~
+         ~English~
+         ~lanna/translations/english/setup.tra~
+
+LANGUAGE ~Polish by norQ & cherrycoke2l~
+         ~Polish~
+         ~lanna/translations/polish/setup.tra~
+
+LANGUAGE ~russian (by Fox-rpg)~
+         ~russian~
+         ~lanna/translations/russian/setup.tra~
+
+BEGIN @1
+LABEL L#-LANNA-IWD
+
+////////////////////////////////////////
+///////////TPH//////////////////////////
+////////////////////////////////////////
+
+INCLUDE ~lanna/lib/kit.tph~
+INCLUDE ~lanna/lib/NewAnimation.tph~
+
+////////////////////////////////////////
+// CamDawg's code for State.ids/////////
+////////////////////////////////////////
+
+APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~
+UNLESS ~CD_STATE_NOTVALID~
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+
+ACTION_IF ("%LANGUAGE%" STR_EQ "Polish") THEN BEGIN
+  COPY ~lanna/audio-pl~ ~lanna/audio~
+END
+
+ACTION_IF ("%LANGUAGE%" STR_EQ "English") THEN BEGIN
+  COPY ~lanna/audio-en~ ~lanna/audio~
+END
+
+LAF HANDLE_AUDIO END
+
+DEFINE_PATCH_FUNCTION ~GET_2DA_ROW~
+	INT_VAR
+		starting_row=0
+		numcolumns=0
+		match_column=0
+		found_it=0
+	STR_VAR
+		match=~DEFA~
+	RET
+		numcols
+		matched
+BEGIN
+		COUNT_2DA_ROWS numcolumns numrows
+		FOR (i = starting_row; i < numrows; ++i) BEGIN
+			READ_2DA_ENTRY i match_column numcolumns string_to_match
+			PATCH_IF (~%string_to_match%~ STRING_EQUAL_CASE ~%match%~) BEGIN
+				matched = i
+				found_it = 1
+				i = numrows
+
+			END
+		END
+		numcols = numcolumns
+		PATCH_IF (found_it = 0) BEGIN
+			PATCH_FAIL ~GET_2DA_ROW: Could not find a row that contains %match% in column %match_column%.~
+		END
+END
+	
+ADD_MUSIC ~L#LANRM~ ~%MOD_FOLDER%/music/L#LANRM.mus~
+COPY ~%MOD_FOLDER%/music/L#LANRMA.acm~ ~MUSIC/L#LANRM/L#LANRMA.acm~
+
+COPY_EXISTING ~SONGLIST.2da~ ~override~
+	LPF GET_2DA_ROW INT_VAR numcolumns=3 match_column=2 STR_VAR match=~L#LANRM.mus~ RET therow=matched END
+	READ_2DA_ENTRY therow 0 3 ~song~
+
+	OUTER_SET L#LANRM = song
+
+
+////////////////////////////////////////
+/////////PORTRAITS//////////////////////
+////////////////////////////////////////
+
+COPY ~lanna/portrait~ ~override~
+
+
+////////////////////////////////////////
+/////////BAMS///////////////////////////
+////////////////////////////////////////
+
+COPY ~lanna/bams~ ~override~
+
+
+////////////////////////////////////////
+/////////DIALOGUES//////////////////////
+////////////////////////////////////////
+
+COMPILE ~lanna/dialogues/l#lanna.d~
+COMPILE ~lanna/dialogues/l#lannaj.d~
+COMPILE ~lanna/dialogues/interjections.d~
+
+
+////////////////////////////////////////
+/////////SCRIPTS////////////////////////
+////////////////////////////////////////
+
+COMPILE EVAL ~lanna/scripts/l#lanna.baf~
+COMPILE ~lanna/scripts/l#lannad.baf~
+
+COMPILE ~lanna/scripts/l#laswcs.baf~ USING ~lanna/translations/%s/setup.tra~
+COMPILE ~lanna/scripts/l#lanfix.baf~ USING ~lanna/translations/%s/setup.tra~
+
+EXTEND_TOP ~AR2111.bcs~     ~lanna/scripts/AR2111.baf~
+EXTEND_TOP ~AR6002.bcs~     ~lanna/scripts/AR6002.baf~
+EXTEND_TOP ~AR9800.bcs~     ~lanna/scripts/AR9800.baf~
+EXTEND_TOP ~SHLETHIA.bcs~   ~lanna/scripts/SHLETHIA.baf~
+
+
+////////////////////////////////////////
+/////////CREATURES//////////////////////
+////////////////////////////////////////
+
+COPY ~lanna/creatures/L#LANNA.cre~ ~override~
+SAY NAME1 @3
+SAY NAME2 @3
+SAY BIO @4
+
+  SAY MORALE @5
+  SAY LEADER @6
+  SAY TIRED @7
+  SAY BORED @8
+  SAY BATTLE_CRY1 @9
+  SAY BATTLE_CRY2 @10
+  SAY BATTLE_CRY3 @11
+  SAY BATTLE_CRY4 @12
+  SAY BATTLE_CRY5 @13
+  SAY DAMAGE @14
+  SAY DYING @15
+  SAY HURT @16
+  SAY AREA_FOREST @17
+  SAY AREA_CITY @18
+  SAY AREA_DUNGEON @19
+  SAY AREA_DAY @20
+  SAY AREA_NIGHT @21
+  SAY SELECT_COMMON1 @22
+  SAY SELECT_COMMON2 @23
+  SAY SELECT_COMMON3 @24
+  SAY SELECT_COMMON4 @25
+  SAY SELECT_COMMON5 @26
+  SAY SELECT_COMMON6 @27
+  SAY SELECT_ACTION1 @28
+  SAY SELECT_ACTION2 @29
+  SAY SELECT_ACTION3 @30
+  SAY SELECT_ACTION4 @22
+  SAY SELECT_ACTION5 @24
+  SAY SELECT_ACTION6 @30
+  SAY SELECT_ACTION7 @26
+  SAY 0x1e0 @31
+  SAY 0x1e4 @32
+  SAY 0x1e8 @33
+  SAY 0x1ec @34
+  SAY CRITICAL_HIT @35
+  SAY CRITICAL_MISS @36
+  SAY TARGET_IMMUNE @37
+  SAY INVENTORY_FULL @38
+  SAY SPELL_DISRUPTED @39
+  SAY SET_A_TRAP @40
+  SAY HIDDEN_IN_SHADOWS @41
+  SAY PICKED_POCKET @42
+  SAY REACT_TO_DIE_GENERAL @43
+  SAY SELECT_RARE1 @44
+  SAY SELECT_RARE2 @45
+  WRITE_SHORT 0x246 (IDS_OF_SYMBOL (~kit~ ~l#lapal~))
+
+APPEND ~pdialog.2da~ ~L#LANNA  L#LANNAP  L#LANNAJ  L#LANNAD  L#LANNAP  L#LANNAJ  L#LANNAD  L#LANNAP~
+UNLESS ~L#LANNA~
+
+APPEND ~interdia.2da~ ~L#LANNA L#LANNAB L#LANNAB~
+  UNLESS ~L#LANNA~
+
+COPY ~lanna/creatures/L#LANDRA.cre~ ~override~
+WRITE_LONG 0x28 (IDS_OF_SYMBOL (~animate~ ~L#_LANNA_DRAEGLOTH~))
+SAY NAME1 @46
+SAY NAME2 @46
+
+////////////////////////////////////////
+/////////ITEMS//////////////////////////
+////////////////////////////////////////
+
+COPY ~lanna/items/L#LANSWO.itm~ ~override~
+  LPF ADD_ITEM_EQEFFECT
+   INT_VAR
+    opcode = 319
+	  target = 1
+	  timing = 2
+	  parameter1 = 0
+	  parameter2 = 11
+	  power = 1
+	  special = RESOLVE_STR_REF (@47)
+	 STR_VAR
+	  resource = l#lanna
+END
+SAY NAME1 @48
+SAY NAME2 @49
+SAY DESC @50
+
+
+COPY ~lanna/items/L#LANSW2.itm~ ~override~
+  LPF ADD_ITEM_EQEFFECT
+   INT_VAR
+    opcode = 319
+	  target = 1
+	  timing = 2
+	  parameter1 = 0
+	  parameter2 = 11
+	  power = 1
+	  special = RESOLVE_STR_REF (@47)
+	 STR_VAR
+	  resource = l#lanna
+END
+SAY NAME1 @48
+SAY NAME2 @49
+SAY DESC @51
+
+COPY ~lanna/items/L#LANfSW.itm~ ~override/L#LANFSW.itm~
+  LPF ADD_ITEM_EQEFFECT
+   INT_VAR
+    opcode = 319
+	  target = 1
+	  timing = 2
+	  parameter1 = 0
+	  parameter2 = 11
+	  power = 1
+	  special = RESOLVE_STR_REF (@52)
+	 STR_VAR
+	  resource = 98765432
+END
+SAY NAME1 @48
+SAY NAME2 @49
+SAY DESC @53
+
+COPY ~lanna/items/L#LANO.itm~ ~override~
+SAY NAME1 @54
+SAY NAME2 @55
+SAY DESC @56
+
+COPY ~lanna/items/L#LAWAT.itm~ ~override~
+SAY NAME1 @57
+SAY NAME2 @57
+SAY DESC @58
+
+COPY ~lanna/items/L#LANGIF.itm~ ~override~
+SAY NAME1 @59
+SAY NAME2 @60
+SAY DESC @61
+
+COPY ~lanna/items/L#LANDRA.itm~ ~override~
+SAY NAME1 @59
+SAY NAME2 @62
+SAY DESC @63
+
+COPY ~lanna/items/L#LANOIL.itm~ ~override~
+SAY NAME1 @64
+SAY NAME2 @64
+SAY DESC @65
+
+////////////////////////////////////////
+/////////SPELLS/////////////////////////
+////////////////////////////////////////
+
+COPY ~lanna/spells/l#lanswo.spl~ ~override~
+SAY NAME1 ~~
+SAY NAME2 ~~
+SAY UNIDENTIFIED_DESC ~~
+
+COPY ~lanna/spells/l#lansw2.spl~ ~override~
+SAY NAME1 @67
+SAY NAME2 @67
+SAY UNIDENTIFIED_DESC @67

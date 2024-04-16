@@ -1,0 +1,186 @@
+
+@1    = ~L'anna - a new IWD EE companion~
+@3    = ~L'anna~
+@4    = ~When asked about her past, L'ANNA says that she was born into a family of a wood elf woman and a wild elf man. She spent most of her life in the forest, training and mastering her sword fighting skills. She's rarely afraid of facing powerful enemies, but she knows what it means to be petrified with terror. L'ANNA was a helpless witness to a terrible fire that devoured her forest... taking away her home and family. She lost those most dear to her, but even such a gruesome event couldn't break her spirit. She trained even harder and devoted herself to the god of mythals, powerful effects of old magic used to protect entire areas and their inhabitants. Perhaps the loss of her home helped L’ANNA find her true calling.~
+@5    = ~No... it's all... wrong.~ [L#LANN01]
+@6    = ~I'll find the right path.~ [L#LANN02]
+@7    = ~There are times, when even the most skilled adventurers need to stop and rest.~ [L#LANN03]
+@8    = ~We could do so much more than stand and wait for things to happen.~ [L#LANN04]
+@9    = ~For all homes worth saving!~ [L#LANN05]
+@10   = ~Saltharan silth!~ [L#LANN06]
+@11   = ~Mythrien, protect me!~ [L#LANN07]
+@12   = ~This ends here!~ [L#LANN08]
+@13   = ~Fight!~ [L#LANN09]
+@14   = ~Ah!~ [L#LANN10]
+@15   = ~No... Mythrien... please...~ [L#LANN11]
+@16   = ~I... I can barely catch my breath...!~ [L#LANN12]
+@17   = ~Wonderful place.~ [L#LANN13]
+@18   = ~Mmm.~ [L#LANN14]
+@19   = ~Be careful.~ [L#LANN15]
+@20   = ~What are we up to today?~ [L#LANN16]
+@21   = ~Shush. We should make sure no one's waiting to get us.~ [L#LANN17]
+@22   = ~I'm here.~ [L#LANN18]
+@23   = ~I'm listening.~ [L#LANN19]
+@24   = ~Every fair home deserves honest protection.~ [L#LANN20]
+@25   = ~I presume you need me?~ [L#LANN41]
+@26   = ~Yes?~ [L#LANN21]
+@27   = ~What is your plan?~ [L#LANN22]
+@28   = ~Myths live forever.~ [L#LANN23]
+@29   = ~It shouldn't be hard.~ [L#LANN24]
+@30   = ~Mythrien, watch over me.~ [L#LANN25]
+@31   = ~I suppose I can.~ [L#LANN26]
+@32   = ~Mhm.~ [L#LANN27]
+@33   = ~It's better than doing nothing.~ [L#LANN28]
+@34   = ~If you believe that's what I need to do...~ [L#LANN29]
+@35   = ~Nine Hells take you!~ [L#LANN30]
+@36   = ~Argh!~ [L#LANN31]
+@37   = ~What...? How?!~ [L#LANN32]
+@38   = ~I'm sorry, but I'm not a mule.~ [L#LANN33]
+@39   = ~For all Myths...! I lost my spell...~ [L#LANN34]
+@40   = ~I'm not sure I like that way of solving things, but... it's ready.~ [L#LANN35]
+@41   = ~They won't see me coming.~ [L#LANN36]
+@42   = ~I've got it. Let's go.~ [L#LANN37]
+@43   = ~We'll avange you...!~ [L#LANN38]
+@44   = ~I won't let more homes fall...~ [L#LANN39]
+@45   = ~Mythals are more than simple magic. That's why I can't let them be gone.~ [L#LANN40]
+@46   = ~Draegloth~
+@47   = ~lanna~
+@48   = ~Longsword~
+@49   = ~Mythalass-Teel~
+@50   = ~Mythalass-Teel is a powerful sword created for the followers of Mythrien Sarath, the Watcher over Mythals. Before the blade can be used, it must accept its new wielder. Old tales say that if the sword doesn’t find a person worthy, it will make sure that the unacceptable owner loses it within days. Moreover, the blade may even reshape fate and prevent such a person from finding it in the first place.
+
+
+STATISTICS:
+
+Equipped abilities:
+- Turn Undead level: +2
+- Can memorize three extra 1st level divine spells
+
+Combat abilities:
+- Critical hits made with weapon cause Call Lightning
+- Evil enemies hit by this weapon suffer additional 1d4 Acid Damage
+- Strikes as a +4 weapon
+
+THAC0: +2, +4 vs. Thieves
+Damage: 1d8+2, +4 vs. Thieves
+Damage type: Slashing
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+@51   = ~Mythalass-Teel is a powerful sword created for the followers of Mythrien Sarath, the Watcher over Mythals. Before the blade can be used, it must accept its new wielder. Old tales say that if the sword doesn’t find a person worthy, it will make sure that the unacceptable owner loses it within days. Moreover, the blade may even reshape fate and prevent such a person from finding it in the first place.
+
+This blade was cleaned with Seldarine's Sword Oil.
+
+STATISTICS:
+
+Equipped abilities:
+- Turn Undead level: +2
+- Can memorize three extra 1st level divine spells
+- Can memorize two extra 2nd level divine spells
+
+Combat abilities:
+- Critical hits made with weapon cause Call Lightning
+- Evil enemies hit by this weapon suffer additional 1d4 Acid Damage
+- Strikes as a +5 weapon
+
+THAC0: +3, +5 vs. Thieves
+Damage: 1d8+3, +5 vs. Thieves
+Damage type: Slashing
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+@52   = ~No one~
+@53   = ~Mythalass-Teel is a powerful sword created for the followers of Mythrien Sarath, the Watcher over Mythals. Before the blade can be used, it must accept its new wielder. Old tales say that if the sword doesn’t find a person worthy, it will make sure that the unacceptable owner loses it within days. Moreover, the blade may even reshape fate and prevent such a person from finding it in the first place.
+
+It looks like Mythalass-Teel did not accept L'anna or anyone else as its owner.
+
+STATISTICS:
+
+Weight: 3~
+@54   = ~Empyt space~
+@55   = ~Empty space~
+@56   = ~This is an empty space L'anna keeps for the sword she's searching for. It reminds her of her goal.~
+@57   = ~Elven Holy Water~
+@58   = ~Holy water blessed by the Elven god Rillifane. The water is specially made to combat vampires.
+
+STATISTICS:
+
+Charge abilities: 
+- Deals 4d8 damage to Undead enemies (no saving throw)
+
+Weight: 1~
+@59   = ~Cloak~
+@60   = ~Flaghal Thassill~
+@61   = ~Flaghal Thassill is a cloak created by a tribe of wild elves. It is believed that those who wear it will be protected from the most biting cold, but will also become better fighters.
+
+STATISTICS:
+
+Equipped abilities: 
+- Attacks Per Round: +1/2
+- Cold Resistance: +75%
+- Magic Cold Resistance: +25
+- Maximum Hit Points: +3
+
+Weight: 3~
+@62   = ~Draegloth's Skin~
+@63   = ~This used to be the skin of a powerful being known as a draegloth. Draegloths are half-demon, half-drow creatures, born of an unholy union between a glabrezu and a newly ordained high priestess of the drow goddess Lolth.
+
+STATISTICS:
+
+Equipped abilities: 
+- Armor Class: +1
+- Magic Resistance: +10%
+- THAC0 vs. Elves: +3
+
+Weight: 3~
+@64   = ~Seldarine's Sword Oil~
+@65   = ~This liquid is known as Seldarine's Sword Oil. Created by elves, it helps to clean elven blades from all impurities.
+
+STATISTICS:
+
+Weight: 1~
+@67   = ~Upgrade: Mythalass-Teel~
+@68   = ~mythseeker of Mythrien Sarath~
+@69   = ~Mythseeker of Mythrien Sarath~
+@70   = ~MYTHSEEKER OF MYTHRIEN SARATH: Mythrien Sarath is one of several elven gods of magic with just a small number of worshipers. As Mystra once delegated certain aspects of magic to other, lesser deities, so too did Corellon Larethian before her. Mythrien holds dominion over protective magic and aids high mages in the erection of mythals, thus Paladins of Mythrien focus on slaying those that become threat to that powerful magic and those that sacrifice themselves for it. They hate agents of Malar, Talos and Mask. As most elves, they also despise Lolth and her evil allies. They are better at tracking than usual paladins.
+
+ADVANTAGES: 
+- Gains +2 Saving Throw vs. Spells
+- May use Tracking ability once per day 
+- May cast Mythrien's Favor once per day
+  MYTHRIEN'S FAVOR: Mythrien aids his rare agents by protecting them - caster gains +1 Armor Class, +4 to Saving Throws vs. Death and Spells and +15% Magic Resistance. Lasts 1 turn.
+- At level 4 gains One With the Myth ability; gains additional uses at levels 8 and 16
+  ONE WITH THE MYTH: With Mythrien's blessing, his paladin creates a special dome that protects the knight, granting +6 Armor Class vs. Missile Weapons and grants +3 THAC0 to the caster and all allies. Lasts 3 rounds.
+- At level 6 gains Mythal Skin; gains additional use at levels 12 and 18
+  MYTHAL SKIN: Mythrien covers the skin of of his agent with mythal that provides +20% Magic Resistance and making the paladin immune to next three physical attacks. Lasts 1 turn.
+- At level 10 gains Mythal-Infused Blood; gains additional usage at levels 20 and 30
+  MYTHAL-INFUSED BLOOD: When cast, the paladin becomes protected by unique magic that that lasts 1 Turn and deals 2 Magic Damage to every attacker; the spell also detects all traps nearby the paladin for 3 rounds and allows to purge invisibility.
+  
+Hit Die: d10
+
+DISADVANTAGES:
+- May not cast Cure Disease
+- May not cast Cure Detect Evil
+- May not cast Cure Protection from Evil
+- May not cast Cure Smite Evil
+- Does not gain Divine Courage~
+
+@72   = ~Mythrien's Favor~
+@73   = ~Mythrien aids his rare agents by protecting them - caster gains +1 Armor Class, +4 to Saving Throws vs. Death and Spells and +15% Magic Resistance. Lasts 1 turn.~
+@74   = ~One With the Myth~
+@75   = ~With Mythrien's blessing, his paladin creates a special dome that protects the knight, granting +6 Armor Class vs. Missile Weapons and grants +3 THAC0 to the caster and all allies. Lasts 3 rounds.~
+@76   = ~Mythal Skin~
+@77   = ~Mythrien covers the skin of of his agent with mythal that provides +20% Magic Resistance and making the paladin immune to next three physical attacks.~
+@78   = ~Mythal-Infused Blood~
+@79   = ~When cast, the paladin becomes protected by unique magic that that lasts 1 Turn and deals 2 Magic Damage to every attacker; the spell also detects all traps nearby the paladin for 3 rounds and allows to purge invisibility.~
+
+@100  = ~You're home now, Mythalass-Teel.~
+@101  = ~Alvalass kisl, my friend. Rest.~

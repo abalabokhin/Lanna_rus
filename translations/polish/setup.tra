@@ -1,0 +1,176 @@
+@1 = ~L'anna – nowy towarzysz dla IWD:EE~
+@3 = ~L'anna~
+@4 = ~Zapytana o przeszłość, L'ANNA opowiada o swojej rodzinie: leśnej elfce, która była jej matką oraz ojcu – dzikim elfie. Spędziła większość swojego życia w kniejach, doskonaląc umiejętności posługiwania się mieczem. Rzadko kiedy ogarnia ją strach podczas walki nawet z najpotężniejszymi przeciwnikami, lecz wie, jak to jest być sparaliżowaną z przerażenia. L'ANNA była naocznym świadkiem straszliwego pożaru, który pochłonął las, w którym żyła wraz z domem i rodziną. Utraciła najdroższe sobie osoby, ale nawet tak makabryczne zdarzenie nie złamało ducha elfki. Ćwiczyła coraz bardziej intensywnie i oddała się bogowi mythali, potężnej i pradawnej magii, mogącej ochronić wielkie połacie terenów oraz ich mieszkańców. Być może to właśnie utrata domu pozwoliła L'ANNIE odnaleźć prawdziwe powołanie.~
+@5 = ~Nie... wszystko... nie tak.~ [L#LANN01]
+@6 = ~Wskażę nam właściwą drogę.~ [L#LANN02]
+@7 = ~Bywają chwile, w których nawet najwprawniejsi poszukiwacze przygód muszą zatrzymać się i odpocząć.~ [L#LANN03]
+@8 = ~Moglibyśmy zrobić o wiele więcej niż tylko tkwić tu w oczekwianiu.~ [L#LANN04]
+@9 = ~Za wszystko, co warto chronić!~ [L#LANN05]
+@10 = ~Saltharan silth!~ [L#LANN06]
+@11 = ~Mythrienie, miej mnie w opiece!~ [L#LANN07]
+@12 = ~Koniec z tym!~ [L#LANN08]
+@13 = ~Do walki!~ [L#LANN09]
+@14 = ~Aaa!~ [L#LANN10]
+@15 = ~Nie... Mythrienie... Proszę...~ [L#LANN11]
+@16 = ~Nie... mogę... złapać... tchu.~ [L#LANN12]
+@17 = ~Coż za urokliwe miejsce.~ [L#LANN13]
+@18 = ~Mmm.~ [L#LANN14]
+@19 = ~Ostrożnie!~ [L#LANN15]
+@20 = ~Co też czeka nas dzisiaj?~ [L#LANN16]
+@21 = ~Cicho. Musimy się upewnić, że nikt na nas nie czyha.~ [L#LANN17]
+@22 = ~Jestem tutaj.~ [L#LANN18]
+@23 = ~Słucham.~ [L#LANN19]
+@24 = ~Każdy dobry dom zasługuje na ochronę.~ [L#LANN20]
+@25 = ~Rozumiem, że mnie potrzebujesz.~ [L#LANN41]
+@26 = ~Tak?~ [L#LANN21]
+@27 = ~Jaki masz plan?~ [L#LANN22]
+@28 = ~Mity żyją wiecznie.~ [L#LANN23]
+@29 = ~To nie powinno być trudne.~ [L#LANN24]
+@30 = ~Mythrienie, czuwaj nade mną.~ [L#LANN25]
+@31 = ~Chyba mogę to zrobić.~ [L#LANN26]
+@32 = ~Mhm.~ [L#LANN27]
+@33 = ~Lepsze to niż bezczynność.~ [L#LANN28]
+@34 = ~Skoro uważasz, że właśnie to powinnam uczynić...~ [L#LANN29]
+@35 = ~Niech cię Dziewięć Piekieł pochłonie!~ [L#LANN30]
+@36 = ~Ach!~ [L#LANN31]
+@37 = ~Co...? Jak?!~ [L#LANN32]
+@38 = ~Wybacz, ale nie jestem jucznym mułem.~ [L#LANN33]
+@39 = ~Na wszystkie mity... Utraciłam zaklęcie!~ [L#LANN34]
+@40 = ~Nie jestem przekonana do takich rozwiązań, ale... gotowe.~ [L#LANN35]
+@41 = ~Nie zobaczą mnie.~ [L#LANN36]
+@42 = ~Mam to. Możemy iść.~ [L#LANN37]
+@43 = ~Pomścimy cię!~ [L#LANN38]
+@44 = ~Nie pozwolę na zniszczenie kolejnego domu.~ [L#LANN39]
+@45 = ~Mythale to o wiele więcej niż prosta magia. Dlatego nie mogę pozwolić im zniknąć.~
+@46 = ~Draegloth~
+@47 = ~lanna~
+@48 = ~Miecz długi~
+@49 = ~Mythalass-Teel~
+@50 = ~Mythalas-Teel jest potężnym mieczem wykutym przez wyznawców Mythriena Saratha, Opiekuna Mythali. Nim posiadacz może go dobyć, ostrze musi wpierw dokonać oceny. Stare legendy mówią o tym, że jeśli miecz uzna kogoś niegodnym, uczyni niedoszłego dzierżącego szalonym. Co więcej, ostrze ma nawet moc odmiany dziejów tak, by sprawić, że dana osoba nigdy go nie odnalazła.
+
+PARAMETRY:
+
+Specjalne:
+– Poziom odpędzania nieumarłych: +2
+– Pozwala zapamiętać trzy dodatkowe zaklęcia kapłańskie 1. poziomu
+– Trafienia krytyczne wywołują efekt czaru Wezwanie błyskawic
+– Źli wrogowie otrzymują dodatkowe 1k4 obrażeń od kwasu
+– Uderza jak broń +4
+
+Obrażenia: 1k8 +2, +4 przeciw Złodziejom
+TraK0: +2, +4 przeciw złodziejom
+Typ obrażeń: sieczne
+Opóźnienie: 3
+Rodzaj biegłości: miecz długi
+Typ broni: 1-ręczna
+Wymagania:
+– Siła: 5
+– Inne
+
+Waga: 3~
+@51 = ~Mythalas-Teel jest potężnym mieczem wykutym przez wyznawców Mythriena Saratha, Opiekuna Mythali. Nim posiadacz może go dobyć, ostrze musi wpierw dokonać oceny. Stare legendy mówią o tym, że jeśli miecz uzna kogoś niegodnym, uczyni niedoszłego dzierżącego szalonym. Co więcej, ostrze ma nawet moc odmiany dziejów tak, by sprawić, że dana osoba nigdy go nie odnalazła.
+
+Tę broń oczyszczono przy pomocy Oleju Seldarine.
+
+PARAMETRY:
+
+Specjalne:
+– Poziom odpędzania nieumarłych: +2
+– Pozwala zapamiętać trzy dodatkowe zaklęcia kapłańskie 1. poziomu
+– Pozwala zapamiętać 2 dodatkowe zaklęcia kapłańskie 2. poziomu
+– Trafienia krytyczne wywołują efekt czaru Wezwanie błyskawic
+– Źli wrogowie otrzymują dodatkowe 1k4 obrażeń od kwasu
+– Uderza jak broń +5
+
+Obrażenia: 1k8 +3, +5 przeciw Złodziejom
+TraK0: +3, +5 przeciw złodziejom
+Typ obrażeń: sieczne
+Opóźnienie: 3
+Rodzaj biegłości: miecz długi
+Typ broni: 1-ręczna
+Wymagania:
+– Siła: 5
+– Inne
+
+Waga: 3~
+@52 = ~Nikt~
+@53 = ~Mythalas-Teel jest potężnym mieczem wykutym przez wyznawców Mythriena Saratha, Opiekuna Mythali. Nim posiadacz może go dobyć, ostrze musi wpierw dokonać oceny. Stare legendy mówią o tym, że jeśli miecz uzna kogoś niegodnym, uczyni niedoszłego dzierżącego szalonym. Co więcej, ostrze ma nawet moc odmiany dziejów tak, by sprawić, że dana osoba nigdy go nie odnalazła.
+
+Wygląda na to, że Mythalas-Teel nie zaakceptował L'anny ani nikogo innego.
+
+PARAMETRY:
+
+Waga: 3~
+@54 = ~Puste miejsce~
+@55 = ~Puste miejsce~
+@56 = ~L'anna trzyma to miejsce na miecz, którego poszukuje. Przypomina jej o swoim celu.~
+@57 = ~Święcona woda elfów~
+@58 = ~Święcona woda pobłogosławiona przez boga elfów, Rillifane'a. Przygotowano ją specjalnie do walki z wampirami.
+
+PARAMETRY:
+
+Właściwości ładunków:
+– Zadaje 4k8 obrażeń nieumarłym (bez rzutu obronnego)
+
+Waga: 1~
+@59 = ~Płaszcz~
+@60 = ~Flaghal Thassill~
+@61 = ~Flaghal Thassill to płaszcz uszyty przez plemię dzikich elfów. Uważa się, że ci, którzy go noszą, otrzymają nie tylko osłonę przed najsroższymi mrozami, ale i staną się lepszymi wojownikami.
+
+PARAMETRY:
+
+Specjalne:
+– Dodatkowe ataki na rundę: +1/2
+– Oporność na zimno: 75%
+– Odporność na magiczne zimno: +25%
+– Maksymalne punkty życia: +3~
+@62 = ~Skóra draeglotha~
+@63 = ~Kiedyś była to skóra potężnej istoty zwanej draeglothem. Kreatury te pochodzą z plugawych związków pomiędzy glabrezu a nowo wyświęconymi kapłankami bogini mrocznych elfów Lolth.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +1
+– Odporność na magię: +10%
+– Trak0 przeciw elfom: +3
+
+Waga: 3~
+@64 = ~Olej Seldarine~
+@65 = ~Ciecz ta zwana jest Olejem Seldarine i wytworzona została przez elfy. Używają jej do czyszczenia swoich ostrzy ze wszelkich nieczystości.
+
+Waga: 1~
+@67 = ~Ulepszenie: Mythalass-Teel~
+@68 = ~tropiciel mitów Mythriena Saratha~
+@69 = ~Tropiciel mitów Mythriena Saratha~
+@70 = ~TROPICIEL MITÓW MYTHRIENA SARATHA: Mythrien Sarath jest jednym z kilku elfich bóstw magii. Jak Mystra oddała niegdyś pieczę nad pewnymi dziedzinami magii innym bóstwom, tak samo przed nią uczynił Corellon Larethian. Dziedziną Mythriena jest magia ochronna. Wspiera on wysokich magów podczas rzucania mythali, zaś zadaniem jego paladynów jest zabijanie tych, którzy stali się zagrożeniem dla potężnej magii oraz chcących czynić szkody przy jej pomocy. Nienawidzą wyznawców Malara, Talosa i Maski oraz, jak większość elfów, Lolth wraz z jej sojusznikami. Są lepsi w tropieniu niż zwykli paladyni.
+
+Zalety:
+– +2 do rzutów obronnych przeciw czarom
+– Może korzystać z umiejętności Tropienie, raz dziennie
+– Może rzucić Łaskę Mythriena, raz dziennie
+ŁASKA MYTHRIENA: Mythrien daje ochronę swoim nielicznym sługom. Rzucający otrzymuje premię +1 do Klasy Pancerza, +4 do rzutów obronnych przeciw śmierci i czarom oraz +15% odporności na magię. Trwa jedną turę.
+– 4. poziom: otrzymuje zdolność Jedność z Mitem; dodatkowe użycia na poziomach 8. i 16.
+JEDNOŚĆ Z MITEM: Mythrien daje ochronę swoim nielicznym sługom. Rzucający otrzymuje premię +1 do Klasy Pancerza, +4 do rzutów obronnych przeciw śmierci i czarom oraz +15% odporności na magię. Trwa jedną turę.
+– 6. poziom: otrzymuje zdolność Skóra z Mythalu; dodatkowe użycia na poziomach 12. i 18.
+SKÓRA Z MYTHALU: Za błogosławieństwem Mythriena rzucający tworzy kopułę chroniącą rycerza, dającą mu +6 do Klasy Pancerza przeciw broniom dystansowym oraz +3 to TraK0 rzucającego oraz jego sojuszników. Trwa trzy rundy.
+– 10. poziom: otrzymuje zdolność Krew Nasycona Mythalem; dodatkowe użycia na poziomach 20. i 3.
+KREW NASYCONA MYTHALEM:
+Po rzuceniu czaru paladyna chroni szczególna magia, która trwa przez jedną turę i zadaje 2 obrażenia magiczne każdemu atakującemu, ponadto czar wykrywa wszystkie pułapki w pobliżu rzucającego przez trzy tury i pozwala mu ujawnić niewidzialnych.
+– Kostka Wytrzymałości: k10
+
+Wady:
+– Nie może rzucić czaru Leczenie chorób 
+– Nie może rzucić czaru Wykrycie zła
+– Nie może rzucić czaru Ochrona przed złem
+– Nie może użyć zdolności Ugodzenie zła
+– Nie otrzymuje zdolności Boska odwaga~
+@72 = ~Łaska Mythriena~
+@73 = ~Mythrien daje ochronę swoim nielicznym sługom. Rzucający otrzymuje premię +1 do Klasy Pancerza, +4 do rzutów obronnych przeciw śmierci i czarom oraz +15% odporności na magię. Trwa jedną turę.~
+@74 = ~Jedność z Mitem~
+@75 = ~Za błogosławieństwem Mythriena rzucający tworzy kopułę chroniącą rycerza, dającą mu +6 do Klasy Pancerza przeciw broniom dystansowym oraz +3 to TraK0 rzucającego oraz jego sojuszników. Trwa trzy rundy.~
+@76 = ~Skóra z Mythalu~
+@77 = ~Mythrien pokrywa skórę swojego sługi mythalem, który daje +20% odporności na magię oraz niewrażliwość na trzy następne ataki fizyczne.~
+@78 = ~Krew Nasycona Mythalem~
+@79 = ~Po rzuceniu czaru paladyna chroni szczególna magia, która trwa przez jedną turę i zadaje 2 obrażenia magiczne każdemu atakującemu, ponadto czar wykrywa wszystkie pułapki w pobliżu rzucającego przez trzy tury i pozwala mu ujawnić niewidzialnych.~
+@100 = ~Jesteś teraz w domu, Mythalass-Teel.~
+@101 = ~Alvalass kisl, mój przyjacielu. Odpocznij.~
