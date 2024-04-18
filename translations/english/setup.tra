@@ -105,7 +105,7 @@ It looks like Mythalass-Teel did not accept L'anna or anyone else as its owner.
 STATISTICS:
 
 Weight: 3~
-@54   = ~Empyt space~
+@54   = ~Empty space~
 @55   = ~Empty space~
 @56   = ~This is an empty space L'anna keeps for the sword she's searching for. It reminds her of her goal.~
 @57   = ~Elven Holy Water~
@@ -168,9 +168,9 @@ Hit Die: d10
 
 DISADVANTAGES:
 - May not cast Cure Disease
-- May not cast Cure Detect Evil
-- May not cast Cure Protection from Evil
-- May not cast Cure Smite Evil
+- May not cast Detect Evil
+- May not cast Protection from Evil
+- May not cast Smite Evil
 - Does not gain Divine Courage~
 
 @72   = ~Mythrien's Favor~
